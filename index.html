@@ -8,23 +8,31 @@
         p{
             color: blue;
         }
-        #primeira div{
-            color: red;
-            background-color: aqua;
-            padding: 1res;
+
+        
+        #primeira-div{
+            color: white;
+            font-size: 115%;
+            background-color: red;
+            padding: .9rem;
+            
         }
         .container{
-            border: 1px solid ;
-
+            border: 1px solid white ;
+            box-shadow: .3rem .3rem .4rem .3rem gray;
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
         }
 
 
         .itenm{
-            color: blue;
-            background-color: pink;
-            padding: 1rem;
-            width: .6rem;
-            border-radius: 5rem;
+            color: white;
+            background-color: #df07f7;
+            padding: .9rem;
+            width: 6rem;
+            border-radius: .5rem;
+            text-align: center;
 
         }
         
@@ -34,13 +42,20 @@
          <p style="color: green;">
             Isto é um paragrafo
          </p>
-
+         <div id="primeira-div">
+            <strong>Meus filmes favoritos</strong>
+         </div>
         
          
          <div class="container">
-             <div class="itenm">isto é uma div</div>
-             <div class="itenm">isto é uma div</div>
-             <div class="itenm">isto é uma div</div>
-         </div>
+             <div class="itenm"><img src="django.png"></div>
+             <div class="itenm"><img src="ords.png"></div>
+             <div class="itenm"><img src="sda.png"></div>
+             <div class="itenm"><img src="mns7.png"></div>
+             <div class="itenm"><img src="logan.png"></div>
+             <div class="itenm"><img src="jw.png"></div>
+             
+             
+        </div>
     </body>
 </html>

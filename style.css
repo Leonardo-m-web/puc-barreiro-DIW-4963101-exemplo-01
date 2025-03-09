@@ -1,5 +1,13 @@
-p{
+*{
     font-size: 30px;
+    
+}
+
+p{
+    
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: red;
+}
+img{
+    height: 290px;
 }
